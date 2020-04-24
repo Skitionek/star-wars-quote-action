@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM dwdraju/alpine-curl-jq:latest
 
 COPY LICENSE README.md /
 

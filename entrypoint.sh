@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-echo "hello $1"
+curl http://swquotesapi.digitaljedi.dk/api/SWQuote/RandomStarWarsQuote -s | jq .starWarsQuote

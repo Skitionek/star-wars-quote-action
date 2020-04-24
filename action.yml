@@ -1,8 +1,9 @@
 name: 'Star Wars quote action'
 description: 'Dummy action returning Star Wars quotes'
 author: 'Dominik Maszczyk'
-icon: 'message-square'
-color: 'gray-dark'
+branding:
+  icon: 'message-square'
+  color: 'gray-dark'
 runs:
   using: 'docker'
   image: 'Dockerfile'

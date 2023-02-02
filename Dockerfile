@@ -1,7 +1,7 @@
-FROM node:16:latest
+FROM node:16
 
 COPY LICENSE README.md /
 
-npm install starwars -g
+RUN npm install starwars -g
 
 ENTRYPOINT ["starwars"]

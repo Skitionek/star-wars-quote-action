@@ -1,7 +1,7 @@
-FROM dwdraju/alpine-curl-jq:latest
+FROM node:16:latest
 
 COPY LICENSE README.md /
 
-COPY entrypoint.sh /entrypoint.sh
+npm install starwars -g
 
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["starwars"]

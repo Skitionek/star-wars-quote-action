@@ -32,6 +32,7 @@ jobs:
         id: detect_flavor
         run: |
           if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            git fetch origin "${{ github.base_ref }}" 2>/dev/null || true
             CHANGED=$(git diff --name-only "origin/${{ github.base_ref }}"...HEAD 2>/dev/null || true)
           else
             CHANGED=$(git diff --name-only HEAD~1 2>/dev/null || true)

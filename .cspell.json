@@ -1,4 +1,20 @@
 {
   "version": "0.2",
-  "words": ["ipynb", "kics", "marocchino", "pyx", "sarif", "SARIF", "Skitionek", "starwars", "tfvars"]
+  "words": [
+    "argjson",
+    "ipynb",
+    "kics",
+    "marocchino",
+    "pipefail",
+    "pyx",
+    "Rollup",
+    "SARIF",
+    "sarif",
+    "shellcheck",
+    "Skitionek",
+    "startswith",
+    "starwars",
+    "tfvars",
+    "tostring"
+  ]
 }
